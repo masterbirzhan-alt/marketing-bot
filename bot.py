@@ -146,7 +146,7 @@ async def btn_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    application = Application.builder().token(TG_TOKEN).build()
+    application = Application.builder().token(TG_TOKEN).local_mode(False).build()
     application.add_handler(CommandHandler("start", cmd_start))
     application.add_handler(CallbackQueryHandler(btn_handler))
     logger.info("Bot started!")
