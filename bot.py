@@ -9,8 +9,8 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 # БАПТАУЛАР
 # ──────────────────────────────────────────────
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8625508269:AAH4UGSL1Vwqk3yt-25ChiHgfvmQj_GN7TI")
-METRIKA_TOKEN = os.getenv("METRIKA_TOKEN", "ЯНДЕКС_ТОКЕНІН_ҚОЙЫҢЫЗ")
-COUNTER_ID = os.getenv("COUNTER_ID", "СЧЁТЧИК_ID_ҚОЙЫҢЫЗ")
+METRIKA_TOKEN = os.getenv("METRIKA_TOKEN", "y0__xCbo-iTCBiP4j8gwvjc-BYoAmhEsfZqlpkL1b-GcLeEXm6D06-F")
+COUNTER_ID = os.getenv("COUNTER_ID", "106106416")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
